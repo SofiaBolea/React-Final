@@ -1,0 +1,55 @@
+.Flotantes{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 160px;
+    height: 3rem;
+    border: 2px solid rgba(19, 18, 18, 0.555);
+    border-radius: 17px;
+    
+    padding: 0 20px 0 0;
+    box-shadow: 10px 12px 19px -7px rgba(186,48,186,1);
+   
+    margin: 15px;
+    
+ 
+   
+    
+}
+.Flotantes:hover{
+    cursor: pointer;
+    scale: 1.2;
+    
+    box-shadow: 10px 10px 14px -3px rgba(0,0,0,0.57);
+    transition: 0.3s;
+    background-color: violet;
+}
+.imagenflot{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+
+.texto{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+@media(max-width:750px) {
+    .Flotantes{
+        width: 90px;
+   
+    }
+
+    .imagenflot{
+        width: 0.9rem;
+        height: 0.9rem;
+        margin-right: 10px;
+        margin-left: 10px;
+       
+    }
+
+}
